@@ -1,6 +1,0 @@
-Manifest-Version: 1.0
-Built-By: eliseev
-Build-Jdk: 11.0.13
-Main-Class: lr4.Main
-Created-By: Maven Integration for Eclipse
-
