@@ -30,7 +30,7 @@ public class ActionListenerInfo implements ActionListener {
 		
 		
 		//создание объекта - окна
-		GroupInfo group_info = new GroupInfo("Information", "Елисеев Александр - 20131014, дата: 19.03.22", "Цкриалашвили Диана - 20130483", 
+		GroupInfo group_info = new GroupInfo("Information", "Елисеев Александр - 20131014, дата: 19.03.22", "Цкриалашвили Диана - 20130483, дата: 19.03.22", 
 				"Саитов Эрик - 20130500, дата: 19.03.22", panel, Main.getSubversion().getInfoButton().getCheck());
 		
 
