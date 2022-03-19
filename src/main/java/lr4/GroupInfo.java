@@ -11,7 +11,7 @@ public class GroupInfo extends JFrame {
 	public GroupInfo(String frame_name, String user1, String user2, String user3, JFrame gui, boolean check) {
 		
 		JFrame main_GUI = new JFrame(frame_name);	// создание графического окна
-		main_GUI.setBounds(300,300,400,300); //задание параметров
+		main_GUI.setBounds(300,300,450,300); //задание параметров
 		main_GUI.setResizable(false); // фиксированный размер окна
 		
 		JPanel main_panel = new JPanel(); // Панель - используется для организации компонентов в окне
@@ -19,14 +19,14 @@ public class GroupInfo extends JFrame {
 		main_GUI.add(main_panel);
 		
 		JLabel user116 = new JLabel(user1); // Отображение текста
-		user116.setBounds(35,15,250,70); //задание параметров
+		user116.setBounds(35,15,350,70); //задание параметров
 		
 		
 		JLabel user216 = new JLabel(user2); // Отображение текста
-		user216.setBounds(28,30,250,70); //задание параметров
+		user216.setBounds(28,30,350,70); //задание параметров
 		
 		JLabel user316 = new JLabel(user3); // Отображение текста
-		user316.setBounds(43,45,250,70);
+		user316.setBounds(43,45,350,70);
 		
 		//файл
 		if (check) {
@@ -60,7 +60,7 @@ public class GroupInfo extends JFrame {
 		//Добавлене кнопки "Назад"
 		JButton back_button = new JButton("Назад"); //создание объекта
 		
-		back_button.setBounds(300,5,70,30); //задание параметров
+		back_button.setBounds(300,5,100,30); //задание параметров
 		back_button.addActionListener(new ActionListenerBack(gui, main_GUI)); //обработчик событий
 		
 		//добавление на панель

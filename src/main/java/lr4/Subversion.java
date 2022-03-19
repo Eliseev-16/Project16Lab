@@ -23,7 +23,7 @@ public class Subversion {
 		
 		
 		//Настройка элементов интерфейса
-		main_GUI.setPreferredSize(new Dimension(650,500));//Установка размеров кона
+		main_GUI.setPreferredSize(new Dimension(750,500));//Установка размеров кона
 		main_GUI.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); //Остановка процесса Java по закрытии JFrame
 		main_Panel.setLayout(new BorderLayout());//Зададим методы расположения
 		footerPanel.setLayout(new FlowLayout());
